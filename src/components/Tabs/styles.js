@@ -1,6 +1,6 @@
 import styled from 'styled-components/native';
-
-export const Container = styled.View`
+import { Animated } from 'react-native';
+export const Container = styled(Animated.View)`
   height: 100px;
   margin-top: 20px;
 `;
@@ -12,8 +12,8 @@ export const TabsContainer = styled.ScrollView.attrs({
 })``;
 
 export const TabItem = styled.View`
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 80px;
     background: rgba(0, 100, 0, 1);
     border-radius: 3px;
     margin-left: 10px;
