@@ -1,5 +1,7 @@
 import React from 'react';
 import { Container, TabsContainer, TabItem, TabText } from './styles';
+import { TouchableOpacity, NativeModules } from 'react-native';
+
 import Icon from 'react-native-vector-icons/MaterialIcons';
 export default function Tabs({ translateY }){
     return (
@@ -18,36 +20,46 @@ export default function Tabs({ translateY }){
             })
           }}>
             <TabsContainer>
+            <TouchableOpacity onPress={() => ({})}>
                 <TabItem>
                     <Icon name="person-add" size={24} color="#fff"/>
                     <TabText>
                         Indicadar Amigos
                     </TabText>
                 </TabItem>
+                </TouchableOpacity>
+                <TouchableOpacity onPress={() => ({})}>
                 <TabItem>
                     <Icon name="chat-bubble-outline" size={24} color="#fff"/>
                     <TabText>
                         Cobrar
                     </TabText>
                 </TabItem>
+                </TouchableOpacity>
+                <TouchableOpacity onPress={() => ({})}>
                 <TabItem>
                     <Icon name="arrow-downward" size={24} color="#fff"/>
                     <TabText>
                         Depositar
                     </TabText>
                 </TabItem>
+                </TouchableOpacity>
+                <TouchableOpacity onPress={() => ({})}>
                 <TabItem>
                     <Icon name="arrow-upward" size={24} color="#fff"/>
                     <TabText>
                         Transferir
                     </TabText>
                 </TabItem>
+                </TouchableOpacity>
+                <TouchableOpacity onPress={() => ({})}>
                 <TabItem>
                     <Icon name="lock" size={24} color="#fff"/>
                     <TabText>
                         Bloquear Cartão
                     </TabText>
                 </TabItem>
+                </TouchableOpacity>
             </TabsContainer>
         </Container>
     )

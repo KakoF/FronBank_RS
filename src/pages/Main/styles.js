@@ -17,7 +17,7 @@ export const Content = styled.View`
 `;
 export const Card = styled(Animated.View)`
   flex: 1;
-  background: #006400;
+  background: #00467c;
   border-radius: 4px;
   margin: 0 20px;
   height: 100%;
@@ -46,7 +46,7 @@ export const Title = styled.Text`
 export const Description = styled.Text`
 font-size: 32px;
 margin-top: 3px;
-color: #FF7F00;
+color: #afaa00;
 `;
 export const CardFooter = styled.View`
 padding: 30px;

@@ -22,23 +22,23 @@ export default function Menu({ translateY }){
             })
           }}>
             <Code>
-                <QRCode value="https://google.com" size={80} bgColor="#006400" fgColor="#fff"/>
+                <QRCode value="https://google.com" size={80} bgColor="#00467c" fgColor="#fff"/>
             </Code>
             <Nav>
                 <NavItem>
-                    <Icon name="help-outline" size={20} color="#006400" />
+                    <Icon name="help-outline" size={20} color="#00467c" />
                     <NavText>Me Ajuda</NavText>
                 </NavItem>
                 <NavItem>
-                    <Icon name="person-outline" size={20} color="#006400" />
+                    <Icon name="person-outline" size={20} color="#00467c" />
                     <NavText>Perfil</NavText>
                 </NavItem>
                 <NavItem>
-                    <Icon name="credit-card" size={20} color="#006400" />
+                    <Icon name="credit-card" size={20} color="#00467c" />
                     <NavText>Configurar Cartão</NavText>
                 </NavItem>
                 <NavItem>
-                    <Icon name="smartphone" size={20} color="#006400" />
+                    <Icon name="smartphone" size={20} color="#00467c" />
                     <NavText>Configurações do APP</NavText>
                 </NavItem>
             </Nav>

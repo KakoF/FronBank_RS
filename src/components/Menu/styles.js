@@ -7,7 +7,7 @@ export const Container = styled(Animated.ScrollView)`
 
 
 export const Code = styled.View`
-    background: #006400;
+    background: #00467c;
     padding: 5px;
     padding-bottom: 10px;
     align-self: center;
@@ -30,7 +30,7 @@ border-bottom-color: rgba(0, 100, 0, 1);
 
 export const NavText = styled.Text`
 font-size: 12px;
-color: #006400;
+color: #00467c;
 margin-left: 20px;
 `;
 
@@ -49,5 +49,5 @@ margin-top: 12px;
 export const SignOutButtonText = styled.Text`
 font-weight: bold;
 font-size: 13px;
-color: #006400;
+color: #00467c;
 `;
